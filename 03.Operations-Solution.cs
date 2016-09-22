@@ -46,7 +46,18 @@ class Program
 
         else if (operations == "%")
         {
+        else if (operations == "%")
+        {
             Console.WriteLine(number2 == 0
+                ? $"Cannot divide {number1} by zero"
+                : $"{number1} % {number2} = {number1 % number2}");
+
+            Console.WriteLine(number2 == 0
+               ? $"Cannot divide {number1} by zero"
+               : $"{number1} % {number2} = {number1 % number2}");
+        }
+
+             Console.WriteLine(number2 == 0
                 ? $"Cannot divide {number1} by zero"
                 : $"{number1} % {number2} = {number1 % number2}");
 
