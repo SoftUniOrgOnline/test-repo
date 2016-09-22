@@ -10,3 +10,6 @@ moher4o@students.softuni.bg
 
 name Elitsa
 email e.filipova.i@students.softuni.bg
+
+name Petar
+email p.petrov90@gmail.com
