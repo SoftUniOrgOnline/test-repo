@@ -6,30 +6,30 @@ class Program
     {
         int number1 = int.Parse(Console.ReadLine());
         int number2 = int.Parse(Console.ReadLine());
-        string operation = Console.ReadLine();
+        string operations = Console.ReadLine();
 
-        if (operation == "+")
+        if (operations == "+")
         {
             Console.Write($"{number1} + {number2} = {number1 + number2} - ");
             Console.WriteLine((number1 + number2) % 2 == 0 ? "even" : "odd");
         }
-        else if (operation == "-")
+        else if (operations == "-")
         {
             Console.Write($"{number1} - {number2} = {number1 - number2} - ");
             Console.WriteLine((number1 - number2) % 2 == 0 ? "even" : "odd");
         }
-        else if (operation == "*")
+        else if (operations == "*")
         {
             Console.Write($"{number1} * {number2} = {number1 * number2} - ");
             Console.WriteLine((number1 * number2) % 2 == 0 ? "even" : "odd");
         }
-        else if (operation == "/")
+        else if (operations == "/")
         {
             Console.WriteLine(number2 == 0
                 ? $"Cannot divide {number1} by zero"
                 : $"{number1} / {number2} = {(double)number1 / number2}");
         }
-        else if (operation == "%")
+        else if (operations == "%")
         {
             Console.WriteLine(number2 == 0
                 ? $"Cannot divide {number1} by zero"
