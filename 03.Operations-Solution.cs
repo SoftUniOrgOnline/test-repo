@@ -24,6 +24,8 @@ class Program
         {
             Console.Write($"{number1} * {number2} = {number1 * number2} - ");
             Console.WriteLine((number1 * number2) % 2 == 0 ? "even" : "odd");
+            Console.Write($"{number1} * {number2} = {number1 * number2} - ");
+            Console.WriteLine((number1 * number2) % 2 == 0 ? "even" : "odd");
         }
         else if (operations == "/")
         {
@@ -36,6 +38,10 @@ class Program
             Console.WriteLine(number2 == 0
                 ? $"Cannot divide {number1} by zero"
                 : $"{number1} % {number2} = {number1 % number2}");
+
+            Console.WriteLine(number2 == 0
+               ? $"Cannot divide {number1} by zero"
+               : $"{number1} % {number2} = {number1 % number2}");
         }
     }
 }
