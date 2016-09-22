@@ -8,6 +8,7 @@ class Program
         int number2 = int.Parse(Console.ReadLine());
         string operations = Console.ReadLine();
 
+
         if (operations == "+")
         {
             Console.Write($"{number1} + {number2} = {number1 + number2} - ");
@@ -31,6 +32,7 @@ class Program
             Console.Write($"{number1} * {number2} = {number1 * number2} - ");
             Console.WriteLine((number1 * number2) % 2 == 0 ? "even" : "odd");
         }
+
         else if (operations == "/")
         {
             Console.WriteLine(number2 == 0
