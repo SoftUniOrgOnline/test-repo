@@ -1,3 +1,2 @@
-name = Elitsa
-email = e.filipova.i@students.softuni.bg
-.
+name Elitsa
+email e.filipova.i@students.softuni.bg
