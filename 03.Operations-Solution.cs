@@ -43,5 +43,21 @@ class Program
                ? $"Cannot divide {number1} by zero"
                : $"{number1} % {number2} = {number1 % number2}");
         }
+
+        else if (operations == "%")
+        {
+            Console.WriteLine(number2 == 0
+                ? $"Cannot divide {number1} by zero"
+                : $"{number1} % {number2} = {number1 % number2}");
+
+            Console.WriteLine(number2 == 0
+               ? $"Cannot divide {number1} by zero"
+               : $"{number1} % {number2} = {number1 % number2}");
+        }
+        if (operations == "+")
+        {
+            Console.Write($"{number1} + {number2} = {number1 + number2} - ");
+            Console.WriteLine((number1 + number2) % 2 == 0 ? "even" : "odd");
+        }
     }
 }
