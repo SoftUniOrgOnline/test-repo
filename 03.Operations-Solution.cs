@@ -15,6 +15,8 @@ class Program
         }
         else if (operation == "-")
         {
+            Console.Write($"{number1} + {number2} = {number1 + number2} - ");
+            Console.WriteLine((number1 + number2) % 2 == 0 ? "even" : "odd");
             Console.Write($"{number1} - {number2} = {number1 - number2} - ");
             Console.WriteLine((number1 - number2) % 2 == 0 ? "even" : "odd");
         }
